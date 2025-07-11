@@ -13,15 +13,15 @@ backend/
 ├── src/
 │   ├── main/
 │   │   ├── java/ntt/ClientService/
-│   │   │   ├── config/                  # Configuración CORS
-│   │   │   ├── controller/              # Controlador REST
-│   │   │   ├── dto/                     # Objetos de transferencia de datos
-│   │   │   ├── exception/               # Manejo de excepciones
-│   │   │   └── ClientServiceApplication.java # Punto de entrada
+│   │   │   ├── config/                  # Config CORS
+│   │   │   ├── controller/              # API Controller
+│   │   │   ├── dto/                     # Data Transfer Objects
+│   │   │   ├── exception/               # Exception Handling
+│   │   │   └── ClientServiceApplication.java
 │   │   └── resources/
-│   │       ├── application.properties   # Configuración de la app
-│   │       └── logback-spring.xml       # Configuración de logs
-└── pom.xml                              # Dependencias Maven
+│   │       ├── application.properties
+│   │       └── logback-spring.xml
+└── pom.xml
 
 ### Frontend (Angular)
 frontend/
