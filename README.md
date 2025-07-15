@@ -118,9 +118,14 @@ Ejemplo de respuesta:
   "ciudadResidencia": "Bogotá"
 }
 
+## Frontend del proyecto
+logo de la compañia en la pestaña del navegador
+<img width="127" height="42" alt="image" src="https://github.com/user-attachments/assets/b3ad8f33-f9eb-40c0-ada1-f16bbc9d8756" />
 
+Home del app, nos recibe con las casillas para seleccionar el tipo de documento e ingresar el numero de documento correctamente diligenciado
 <img width="651" height="537" alt="image" src="https://github.com/user-attachments/assets/0bcf0655-c99d-4a10-bff5-5a3c1a8df957" />
 
+Validaciones de la informacion
 <img width="642" height="548" alt="image" src="https://github.com/user-attachments/assets/1acba7f6-66b2-48dd-b63d-b22f74541539" />
 
 
@@ -138,5 +143,5 @@ Ejemplo de respuesta:
 
 
 <img width="480" height="912" alt="image" src="https://github.com/user-attachments/assets/93917716-12ae-439d-9ddf-469614bc863e" />
-<img width="127" height="42" alt="image" src="https://github.com/user-attachments/assets/b3ad8f33-f9eb-40c0-ada1-f16bbc9d8756" />
+
 
