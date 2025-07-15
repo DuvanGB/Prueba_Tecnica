@@ -117,3 +117,7 @@ Ejemplo de respuesta:
   "direccion": "Calle 123 #45-67",
   "ciudadResidencia": "Bogotá"
 }
+
+
+<img width="651" height="537" alt="image" src="https://github.com/user-attachments/assets/0bcf0655-c99d-4a10-bff5-5a3c1a8df957" />
+
