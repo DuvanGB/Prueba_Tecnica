@@ -123,58 +123,57 @@ Ejemplo de respuesta:
 #### Vista General
 La aplicación presenta una interfaz limpia y funcional con las siguientes características:
 
-##### Identificación Visual:
+##### Identificación Visual  
+Logo corporativo visible en la pestaña del navegador  
 
-Logo corporativo visible en la pestaña del navegador
 <img width="127" height="42" alt="image" src="https://github.com/user-attachments/assets/b3ad8f33-f9eb-40c0-ada1-f16bbc9d8756" />
 
-##### Pantalla Principal:
+##### Pantalla Principal  
+Formulario de búsqueda con campos para:  
+- Selección del tipo de documento (desplegable)  
+- Ingreso del número de documento (campo numérico)  
 
-Formulario de búsqueda con campos para:
-
-Selección del tipo de documento (desplegable)
-
-Ingreso del número de documento (campo numérico)
 <img width="651" height="537" alt="image" src="https://github.com/user-attachments/assets/0bcf0655-c99d-4a10-bff5-5a3c1a8df957" />
 
-###### Validaciones Implementadas
-El sistema realiza las siguientes validaciones en tiempo real:
+###### Validaciones Implementadas  
+El sistema realiza las siguientes validaciones en tiempo real:  
+- Tipo de documento obligatorio  
+- Número de documento:  
+  - Longitud entre 8-11 caracteres  
+  - Solo acepta valores numéricos  
+  - Formato adecuado según el tipo de documento  
 
-Tipo de documento obligatorio
+##### Ejemplos de mensajes de validación  
 
-Número de documento:
+<img width="642" height="548" alt="image" src="https://github.com/user-attachments/assets/1acba7f6-66b2-48dd-b63d-b22f74541539" />  
 
-Longitud entre 8-11 caracteres
+<img width="652" height="556" alt="image" src="https://github.com/user-attachments/assets/d3e876c1-219a-435d-8002-30dd2f1a44e2" />  
 
-Solo acepta valores numéricos
+<img width="649" height="555" alt="image" src="https://github.com/user-attachments/assets/d7804f61-1339-4226-b83c-2c51e1ac03ce" />  
 
-Formato adecuado según el tipo de documento
+<img width="653" height="577" alt="image" src="https://github.com/user-attachments/assets/22b4ddb3-403a-4a64-a28b-74b02a9a8a4e" />  
 
-##### Ejemplos de mensajes de validación:
-<img width="642" height="548" alt="image" src="https://github.com/user-attachments/assets/1acba7f6-66b2-48dd-b63d-b22f74541539" />
-<img width="652" height="556" alt="image" src="https://github.com/user-attachments/assets/d3e876c1-219a-435d-8002-30dd2f1a44e2" />
-<img width="649" height="555" alt="image" src="https://github.com/user-attachments/assets/d7804f61-1339-4226-b83c-2c51e1ac03ce" />
-<img width="653" height="577" alt="image" src="https://github.com/user-attachments/assets/22b4ddb3-403a-4a64-a28b-74b02a9a8a4e" />
-<img width="650" height="612" alt="image" src="https://github.com/user-attachments/assets/603498b5-63aa-4408-905b-e4a635846d18" />
-<img width="649" height="555" alt="image" src="https://github.com/user-attachments/assets/611681fc-0016-413f-8e05-203c41e45e5a" />
+<img width="650" height="612" alt="image" src="https://github.com/user-attachments/assets/603498b5-63aa-4408-905b-e4a635846d18" />  
+
+<img width="649" height="555" alt="image" src="https://github.com/user-attachments/assets/611681fc-0016-413f-8e05-203c41e45e5a" />  
+
 <img width="653" height="556" alt="image" src="https://github.com/user-attachments/assets/2a69ce4e-c199-4aec-8c96-9017719d9f88" />
 
-##### Flujo de Búsqueda Exitosa
-Al ingresar datos válidos correspondientes al mock (Cédula: 23445322), la aplicación muestra:
+##### Flujo de Búsqueda Exitosa  
+Al ingresar datos válidos correspondientes al mock (Cédula: 23445322), la aplicación muestra:  
 
-#### Transición automática al componente de resumen
+- Transición automática al componente de resumen  
+- Visualización detallada de la información del cliente  
 
-Visualización detallada de la información del cliente
 <img width="480" height="912" alt="image" src="https://github.com/user-attachments/assets/93917716-12ae-439d-9ddf-469614bc863e" />
 
-### Ejecución del Backend (Opción Pre-empaquetada)
-Para facilitar las pruebas, el proyecto incluye un archivo JAR ejecutable del backend:
+### Ejecución del Backend (Opción Pre-empaquetada)  
+Para facilitar las pruebas, el proyecto incluye un archivo JAR ejecutable del backend:  
 
-#### Ubicación:
-Prueba_Tecnica\backend\target\ClientService-0.0.1-SNAPSHOT.jar
+#### Ubicación:  
+`Prueba_Tecnica\backend\target\ClientService-0.0.1-SNAPSHOT.jar`  
 
-#### Comando de ejecución:
-
+#### Comando de ejecución:  
 cd "\Prueba_Tecnica\backend\target"
 java -jar ClientService-0.0.1-SNAPSHOT.jar
 
