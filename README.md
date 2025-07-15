@@ -121,3 +121,22 @@ Ejemplo de respuesta:
 
 <img width="651" height="537" alt="image" src="https://github.com/user-attachments/assets/0bcf0655-c99d-4a10-bff5-5a3c1a8df957" />
 
+<img width="642" height="548" alt="image" src="https://github.com/user-attachments/assets/1acba7f6-66b2-48dd-b63d-b22f74541539" />
+
+
+<img width="652" height="556" alt="image" src="https://github.com/user-attachments/assets/d3e876c1-219a-435d-8002-30dd2f1a44e2" />
+
+<img width="649" height="555" alt="image" src="https://github.com/user-attachments/assets/d7804f61-1339-4226-b83c-2c51e1ac03ce" />
+<img width="653" height="577" alt="image" src="https://github.com/user-attachments/assets/22b4ddb3-403a-4a64-a28b-74b02a9a8a4e" />
+
+<img width="650" height="612" alt="image" src="https://github.com/user-attachments/assets/603498b5-63aa-4408-905b-e4a635846d18" />
+
+<img width="649" height="555" alt="image" src="https://github.com/user-attachments/assets/611681fc-0016-413f-8e05-203c41e45e5a" />
+
+
+<img width="653" height="556" alt="image" src="https://github.com/user-attachments/assets/2a69ce4e-c199-4aec-8c96-9017719d9f88" />
+
+
+<img width="480" height="912" alt="image" src="https://github.com/user-attachments/assets/93917716-12ae-439d-9ddf-469614bc863e" />
+<img width="127" height="42" alt="image" src="https://github.com/user-attachments/assets/b3ad8f33-f9eb-40c0-ada1-f16bbc9d8756" />
+
