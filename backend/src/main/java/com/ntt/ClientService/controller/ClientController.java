@@ -17,6 +17,11 @@ public class ClientController {
 
     private static final Logger logger = LoggerFactory.getLogger(ClientController.class);
 
+    @GetMapping("/health")
+    public ResponseEntity<String> healthCheck() {
+        return ResponseEntity.ok("Servicio funcionando correctamente");
+    }
+
     @PostMapping("/consultar")
     public ResponseEntity<ClientResponse> consultarCliente(@Valid @RequestBody ClientRequest request) {
         logger.info("Solicitud recibida - TipoDoc: {}, NumDoc: {}", request.getTipoDocumento(), request.getNumeroDocumento());
@@ -50,10 +55,5 @@ public class ClientController {
 
         logger.warn("Cliente no encontrado - TipoDoc: {}, NumDoc: {}", request.getTipoDocumento(), request.getNumeroDocumento());
         throw new ClientNotFoundException("Cliente no encontrado"); // Código 404
-    }
-
-    @GetMapping("/health")
-    public ResponseEntity<String> healthCheck() {
-        return ResponseEntity.ok("Servicio funcionando correctamente");
     }
 }

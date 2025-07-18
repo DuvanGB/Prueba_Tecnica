@@ -233,3 +233,154 @@
 2025-07-14 21:26:45 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
 2025-07-14 21:26:45 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
 2025-07-14 21:26:46 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.012 seconds (process running for 3.311)
+2025-07-18 08:31:20 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 26808 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:31:20 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-18 08:31:20 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:31:22 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:31:22 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:31:22 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 08:31:22 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.841 seconds (process running for 5.302)
+2025-07-18 08:31:41 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 27480 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:31:41 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-18 08:31:41 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:31:43 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:31:43 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:31:43 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-07-18 08:31:43 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.734 seconds (process running for 4.978)
+2025-07-18 08:32:26 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 28620 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:32:26 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-18 08:32:26 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:32:28 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:32:28 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:32:28 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-07-18 08:32:28 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.517 seconds (process running for 4.486)
+2025-07-18 08:38:53 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 7080 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:38:53 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-18 08:38:53 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:38:55 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:38:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:38:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 08:38:55 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.521 seconds (process running for 4.531)
+2025-07-18 08:39:50 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 21876 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:39:50 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-18 08:39:50 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:39:52 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:39:52 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:39:52 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 08:39:52 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.651 seconds (process running for 4.519)
+2025-07-18 08:45:21 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 15676 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:45:21 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 08:45:21 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:45:22 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:45:22 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:45:22 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 08:45:23 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.471 seconds (process running for 4.342)
+2025-07-18 08:52:11 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 4648 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:52:11 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 08:52:11 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:52:13 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:52:13 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:52:13 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-07-18 08:52:13 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.623 seconds (process running for 4.528)
+2025-07-18 08:52:14 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 08:52:14 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 08:52:38 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 34612 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:52:38 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 08:52:38 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:52:40 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:52:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:52:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-07-18 08:52:40 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.483 seconds (process running for 4.511)
+2025-07-18 08:53:31 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 40732 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:53:31 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 08:53:31 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:53:33 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:53:33 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:53:33 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 08:53:33 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.607 seconds (process running for 4.76)
+2025-07-18 08:53:55 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 40432 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:53:55 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 08:53:55 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:53:57 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:53:57 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:53:57 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-07-18 08:53:57 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.599 seconds (process running for 4.66)
+2025-07-18 08:53:59 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 08:53:59 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 08:54:10 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 28728 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:54:10 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 08:54:10 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:54:12 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:54:12 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:54:12 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-07-18 08:54:12 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.487 seconds (process running for 4.573)
+2025-07-18 09:06:57 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 8408 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:06:57 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:06:57 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:06:58 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:06:58 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:06:58 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 09:06:58 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 1.876 seconds (process running for 5.374)
+2025-07-18 09:06:59 [main] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /api/clientes/health
+2025-07-18 09:06:59 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:06:59 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:06:59 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:06:59 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 09:07:06 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 19788 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:07:06 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:07:06 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:07:08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:07:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:07:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-07-18 09:07:08 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 1.901 seconds (process running for 3.206)
+2025-07-18 09:07:08 [main] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /api/clientes/health
+2025-07-18 09:07:09 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:07:09 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:07:09 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:07:09 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 09:09:29 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 41872 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:09:29 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:09:29 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:09:30 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:09:30 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:09:30 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 09:09:30 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 1.858 seconds (process running for 3.156)
+2025-07-18 09:09:31 [main] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /api/clientes/health
+2025-07-18 09:09:31 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:09:31 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:09:31 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:09:31 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 09:11:38 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 27360 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:11:39 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:11:39 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:11:40 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:11:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:11:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-07-18 09:11:40 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 1.793 seconds (process running for 3.29)
+2025-07-18 09:11:40 [main] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /api/clientes/health
+2025-07-18 09:11:41 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:11:41 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:11:41 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:11:41 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 09:12:05 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 37172 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:12:05 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:12:05 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:12:07 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:12:07 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:12:07 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-07-18 09:12:07 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.114 seconds (process running for 3.819)
+2025-07-18 09:12:08 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:12:08 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:12:08 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:12:08 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 09:13:04 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 39908 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:13:04 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:13:04 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:13:05 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:13:05 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:13:05 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-07-18 09:13:06 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.368 seconds (process running for 4.244)
+2025-07-18 09:13:07 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:13:07 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:13:07 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:13:07 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
