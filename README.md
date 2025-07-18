@@ -174,8 +174,8 @@ Para facilitar las pruebas, el proyecto incluye un archivo JAR ejecutable del ba
 `Prueba_Tecnica\backend\target\ClientService-0.0.1-SNAPSHOT.jar`  
 
 #### Comando de ejecución:  
-cd "\Prueba_Tecnica\backend\target"
-java -jar ClientService-0.0.1-SNAPSHOT.jar
+`cd "\Prueba_Tecnica\backend\target"
+java -jar ClientService-0.0.1-SNAPSHOT.jar`
 
 #### Acceso al servicio:
 El backend estará disponible en http://localhost:8090/api/clientes
