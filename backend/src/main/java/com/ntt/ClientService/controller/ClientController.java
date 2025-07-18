@@ -5,6 +5,7 @@ import com.ntt.ClientService.dto.ClientResponse;
 import com.ntt.ClientService.dto.ErrorResponse;
 import com.ntt.ClientService.exception.ClientNotFoundException;
 import com.ntt.ClientService.exception.InvalidRequestException;
+import com.ntt.ClientService.service.ClientService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
@@ -13,11 +14,18 @@ import org.springframework.web.bind.annotation.*;
 
 import jakarta.validation.Valid;
 
+import java.util.Optional;
+
 @RestController
 @RequestMapping("/api/clientes")
 public class ClientController {
 
     private static final Logger logger = LoggerFactory.getLogger(ClientController.class);
+    private final ClientService clientService;
+
+    public ClientController(ClientService clientService) {
+        this.clientService = clientService;
+    }
 
     @GetMapping("/")
     public ResponseEntity<String> home() {
@@ -46,19 +54,14 @@ public class ClientController {
             throw new InvalidRequestException("El número de documento es obligatorio");
         }
 
-        // Mock solo para cédula 23445322 (Código 404 si no coincide)
-        if ("C".equals(request.getTipoDocumento()) && "23445322".equals(request.getNumeroDocumento())) {
-            ClientResponse response = new ClientResponse(
-                    "Duvan",
-                    "Andres",
-                    "Galvis",
-                    "Brito",
-                    "3203460370",
-                    "Carrera 58 #2c-95",
-                    "Bogotá"
-            );
-            logger.info("Cliente encontrado: {}", response);
-            return ResponseEntity.ok(response); // Código 200
+        Optional<ClientResponse> clienteEncontrado = clientService.buscarCliente(
+                request.getTipoDocumento(),
+                request.getNumeroDocumento()
+        );
+
+        if (clienteEncontrado.isPresent()) {
+            logger.info("Cliente encontrado: {}", clienteEncontrado.get());
+            return ResponseEntity.ok(clienteEncontrado.get()); // Código 200
         }
 
         logger.warn("Cliente no encontrado - TipoDoc: {}, NumDoc: {}", request.getTipoDocumento(), request.getNumeroDocumento());

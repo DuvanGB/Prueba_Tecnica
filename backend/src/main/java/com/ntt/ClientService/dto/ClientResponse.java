@@ -10,6 +10,8 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ClientResponse {
+    private String tipoDocumento;
+    private String numeroDocumento;
     private String primerNombre;
     private String segundoNombre;
     private String primerApellido;

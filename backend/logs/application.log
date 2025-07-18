@@ -480,3 +480,139 @@
 2025-07-18 09:32:30 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
 2025-07-18 09:32:30 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
 2025-07-18 09:32:30 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=BogotÃ¡)
+2025-07-18 09:46:55 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-18 09:46:55 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-18 09:47:16 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 40340 (C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:47:16 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:47:16 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:47:17 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-18 09:47:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-18 09:47:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-18 09:47:17 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 885 ms
+2025-07-18 09:47:17 [main] ERROR c.n.C.service.ClientService - Error al cargar el archivo clientes.json
+java.io.FileNotFoundException: class path resource [clientes.json] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:212)
+	at com.ntt.ClientService.service.ClientService.cargarClientes(ClientService.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:453)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:217)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:427)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:604)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:526)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1674)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1621)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1383)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:566)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:526)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1109)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:978)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:618)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1333)
+	at com.ntt.ClientService.ClientServiceApplication.main(ClientServiceApplication.java:10)
+2025-07-18 09:47:17 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientController' defined in file [C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes\com\ntt\ClientService\controller\ClientController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'clientService': Invocation of init method failed
+2025-07-18 09:47:17 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-07-18 09:47:17 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-18 09:47:17 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientController' defined in file [C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes\com\ntt\ClientService\controller\ClientController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'clientService': Invocation of init method failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1383)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:566)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:526)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1109)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:978)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:618)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1333)
+	at com.ntt.ClientService.ClientServiceApplication.main(ClientServiceApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientService': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:220)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:427)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:604)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:526)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1674)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1621)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 21 common frames omitted
+Caused by: java.lang.RuntimeException: No se pudo cargar el archivo de clientes
+	at com.ntt.ClientService.service.ClientService.cargarClientes(ClientService.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:453)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:217)
+	... 34 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [clientes.json] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:212)
+	at com.ntt.ClientService.service.ClientService.cargarClientes(ClientService.java:32)
+	... 41 common frames omitted
+2025-07-18 09:48:11 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 30628 (C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:48:11 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:48:11 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:48:12 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-18 09:48:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-18 09:48:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-18 09:48:12 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 930 ms
+2025-07-18 09:48:13 [main] INFO  c.n.C.service.ClientService - Se cargaron 3 clientes desde el archivo JSON
+2025-07-18 09:48:13 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-07-18 09:48:13 [main] INFO  c.n.C.ClientServiceApplication - Started ClientServiceApplication in 2.019 seconds (process running for 2.508)
+2025-07-18 09:48:22 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-18 09:48:22 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-18 09:48:22 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-18 09:48:30 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:48:30 [http-nio-8090-exec-2] INFO  c.n.C.service.ClientService - Buscando cliente - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:48:30 [http-nio-8090-exec-2] INFO  c.n.C.service.ClientService - Cliente encontrado: ClientResponse(tipoDocumento=null, numeroDocumento=null, primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 09:48:30 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(tipoDocumento=null, numeroDocumento=null, primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 09:48:44 [http-nio-8090-exec-7] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345678
+2025-07-18 09:48:44 [http-nio-8090-exec-7] INFO  c.n.C.service.ClientService - Buscando cliente - TipoDoc: C, NumDoc: 12345678
+2025-07-18 09:48:44 [http-nio-8090-exec-7] INFO  c.n.C.service.ClientService - Cliente encontrado: ClientResponse(tipoDocumento=null, numeroDocumento=null, primerNombre=Maria, segundoNombre=Elena, primerApellido=Rodriguez, segundoApellido=Martinez, telefono=3101234567, direccion=Calle 123 #45-67, ciudadResidencia=Medellín)
+2025-07-18 09:48:44 [http-nio-8090-exec-7] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(tipoDocumento=null, numeroDocumento=null, primerNombre=Maria, segundoNombre=Elena, primerApellido=Rodriguez, segundoApellido=Martinez, telefono=3101234567, direccion=Calle 123 #45-67, ciudadResidencia=Medellín)
+2025-07-18 09:49:57 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-18 09:49:57 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
