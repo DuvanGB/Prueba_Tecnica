@@ -384,3 +384,99 @@
 2025-07-18 09:13:07 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
 2025-07-18 09:13:07 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
 2025-07-18 09:13:07 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogot√°)
+2025-07-18 09:24:09 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 17.0.12 with PID 27260 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:24:09 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:24:09 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:24:11 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:24:11 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:24:11 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2025-07-18 09:24:11 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.96 seconds (process running for 4.639)
+2025-07-18 09:24:13 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:24:13 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:24:13 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:24:13 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogot·)
+2025-07-18 09:24:57 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 8008 (C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:24:57 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:24:57 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:24:58 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-18 09:24:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-18 09:24:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-18 09:24:58 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 893 ms
+2025-07-18 09:24:59 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-07-18 09:24:59 [main] INFO  c.n.C.ClientServiceApplication - Started ClientServiceApplication in 1.853 seconds (process running for 2.282)
+2025-07-18 09:25:04 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-18 09:25:04 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-18 09:25:04 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-18 09:25:04 [http-nio-8090-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:25:05 [http-nio-8090-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2025-07-18 09:25:05 [http-nio-8090-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:25:05 [http-nio-8090-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2025-07-18 09:25:06 [http-nio-8090-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:25:06 [http-nio-8090-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2025-07-18 09:25:07 [http-nio-8090-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:25:07 [http-nio-8090-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2025-07-18 09:25:25 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:25:25 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogot·)
+2025-07-18 09:25:37 [http-nio-8090-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:25:38 [http-nio-8090-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2025-07-18 09:25:44 [http-nio-8090-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:25:44 [http-nio-8090-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2025-07-18 09:27:37 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-18 09:27:37 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-18 09:28:17 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 13516 (C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:28:17 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:28:17 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:28:18 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-18 09:28:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-18 09:28:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-18 09:28:18 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1179 ms
+2025-07-18 09:28:18 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-07-18 09:28:18 [main] INFO  c.n.C.ClientServiceApplication - Started ClientServiceApplication in 2.083 seconds (process running for 2.464)
+2025-07-18 09:28:24 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-18 09:28:24 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-18 09:28:24 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-18 09:28:24 [http-nio-8090-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:28:24 [http-nio-8090-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2025-07-18 09:28:26 [http-nio-8090-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:28:31 [http-nio-8090-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:29:13 [http-nio-8090-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:29:14 [http-nio-8090-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:30:14 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-18 09:30:14 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-18 09:30:28 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 41084 (C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:30:28 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:30:28 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:30:29 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-18 09:30:29 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-18 09:30:29 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-18 09:30:30 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 983 ms
+2025-07-18 09:30:30 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-07-18 09:30:30 [main] INFO  c.n.C.ClientServiceApplication - Started ClientServiceApplication in 1.984 seconds (process running for 2.372)
+2025-07-18 09:30:30 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-18 09:30:30 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-18 09:30:30 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-18 09:31:18 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-18 09:31:18 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-18 09:31:38 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 27668 (C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:31:38 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:31:38 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:31:39 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-18 09:31:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-18 09:31:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-18 09:31:39 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 897 ms
+2025-07-18 09:31:39 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-07-18 09:31:39 [main] INFO  c.n.C.ClientServiceApplication - Started ClientServiceApplication in 1.799 seconds (process running for 2.175)
+2025-07-18 09:31:47 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-18 09:31:47 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-18 09:31:47 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-07-18 09:32:27 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 20196 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:32:27 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:32:27 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:32:29 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:32:29 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:32:29 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 09:32:29 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.38 seconds (process running for 4.344)
+2025-07-18 09:32:30 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:32:30 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:32:30 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:32:30 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogot√°)

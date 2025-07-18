@@ -85,11 +85,4 @@ class ClientServiceApplicationTests {
 						.content(requestJson))
 				.andExpect(status().isNotFound());
 	}
-
-	@Test
-	public void healthCheck_Success() throws Exception {
-		mockMvc.perform(MockMvcRequestBuilders.get("/api/clientes/health"))
-				.andExpect(status().isOk())
-				.andExpect(content().string("Servicio funcionando correctamente"));
-	}
 }

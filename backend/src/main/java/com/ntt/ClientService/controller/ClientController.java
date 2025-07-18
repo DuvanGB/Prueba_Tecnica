@@ -2,10 +2,12 @@ package com.ntt.ClientService.controller;
 
 import com.ntt.ClientService.dto.ClientRequest;
 import com.ntt.ClientService.dto.ClientResponse;
+import com.ntt.ClientService.dto.ErrorResponse;
 import com.ntt.ClientService.exception.ClientNotFoundException;
 import com.ntt.ClientService.exception.InvalidRequestException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,9 +19,15 @@ public class ClientController {
 
     private static final Logger logger = LoggerFactory.getLogger(ClientController.class);
 
-    @GetMapping("/health")
-    public ResponseEntity<String> healthCheck() {
-        return ResponseEntity.ok("Servicio funcionando correctamente");
+    @GetMapping("/")
+    public ResponseEntity<String> home() {
+        return ResponseEntity.ok("Bienvenido al Servicio de Clientes. Use /api/clientes/consultar para consultar clientes");
+    }
+
+    @RequestMapping("/**")
+    public ResponseEntity<ErrorResponse> handleNotFound() {
+        ErrorResponse error = new ErrorResponse(HttpStatus.NOT_FOUND.value(), "Endpoint no encontrado");
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(error);
     }
 
     @PostMapping("/consultar")
